@@ -1,0 +1,31 @@
+{
+  "name": "@imhoff/colors",
+  "version": "1.0.0",
+  "description": "Color manipulation library.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imhoffd/colors.git"
+  },
+  "keywords": ["color", "colors", "rgb", "rgba", "hsl"],
+  "author": "Dan Imhoff <dwieeb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imhoffd/colors/issues"
+  },
+  "homepage": "https://github.com/imhoffd/colors#readme",
+  "dependencies": {
+    "tslib": "^2.2.0"
+  },
+  "devDependencies": {
+    "@imhoff/prettier-config": "^1.0.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  },
+  "prettier": "@imhoff/prettier-config"
+}
